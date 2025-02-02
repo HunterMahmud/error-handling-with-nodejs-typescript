@@ -1,4 +1,5 @@
 import express, { Application, Request, Response } from "express";
+import 'reflect-metadata';
 import { ErrorHandler } from './core/err';
 import userRouter from './routes/routes.signUp'
 import { errorMiddleware } from './middlewares/middleware.errorHandler';
